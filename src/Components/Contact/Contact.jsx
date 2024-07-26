@@ -52,7 +52,7 @@ const Contact = () => {
                     <img src={mail_icon} alt="" /> <p>officialsaikatray@gmail.com</p>
                 </div>
                 <div className="contact-detail">
-                    <img src={call_icon} alt="" /> <p>+91-9563164687</p>
+                    <img src={call_icon} alt="" /> <p>+91-3224357185</p>
                 </div>
                 <div className="contact-detail">
                     <img src={location_icon} alt="" /> <p>Haldia, West Bengal, India</p>
