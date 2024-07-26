@@ -17,7 +17,7 @@ const Contact = () => {
 
 // enter your own web3 forms access key below
 
-    formData.append("access_key", "83c1f0ec-b70d-4996-92d7-137598ba444a");
+    formData.append("access_key", "190fd8a8-50b7-49ca-a878-69821e5c2b99");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -49,10 +49,10 @@ const Contact = () => {
             <p>{data.data2}</p>
             <div className="contact-details">
                 <div className="contact-detail">
-                    <img src={mail_icon} alt="" /> <p>dibakarbera01@gmail.com</p>
+                    <img src={mail_icon} alt="" /> <p>officialsaikatray@gmail.com</p>
                 </div>
                 <div className="contact-detail">
-                    <img src={call_icon} alt="" /> <p>+91-760298967</p>
+                    <img src={call_icon} alt="" /> <p>+91-9563164687</p>
                 </div>
                 <div className="contact-detail">
                     <img src={location_icon} alt="" /> <p>Haldia, West Bengal, India</p>

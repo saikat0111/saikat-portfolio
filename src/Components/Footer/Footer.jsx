@@ -9,8 +9,8 @@ const Footer = () => {
     <div className='footer'>
       <div className="footer-top">
         <div className="footer-top-left">
-            <h1>Dibakar</h1>
-            <p>I am a Full Sytack Developer from, India with 1+ years of Freelance experience and Open Source Projects</p>
+            <h1>Saikat Ray</h1>
+            <p>I am a singer and youtuber from, India with 5+ years of Music Industry experience.</p>
         </div>
         <div className="footer-top-right">
             <div className="footer-email-input">
@@ -22,7 +22,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className="footer-bottom">
-        <p className="footer-bottom-left">© 2024 Dibakar Bera. All rights reserved.</p>
+        <p className="footer-bottom-left">© 2024 Saikat. All rights reserved.</p>
         <div className="footer-bottom-right">
             <p>Term of Services</p>
             <p>Privacy Policy</p>

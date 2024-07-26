@@ -6,20 +6,20 @@ import Hero from './Components/Hero/Hero'
 // import Services from './Components/Services/Services'
 // import Project from './Components/Project/Project'
 // import Certificate from './Components/Certificate/Certificate'
-// import Contact from './Components/Contact/Contact'
-// import Footer from './Components/Footer/Footer'
+import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
     <div>
-      <Navbar/>
-      <Hero/>
+      <Navbar />
+      <Hero />
       {/* <About/>
       <Project/>
       <Certificate/>
-      <Services/>
-      <Contact/>
-      <Footer/> */}
+      <Services/> */}
+      <Contact />
+      <Footer />
     </div>
   )
 }
