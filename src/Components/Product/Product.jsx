@@ -2,7 +2,7 @@
 import React from 'react'
 import './Product.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import project from '../data/project'
+import product from '../data/product'
 import arrow_icon from '../../assets/arrow_icon.svg'
 
 const Product = () => {
@@ -17,7 +17,7 @@ const Product = () => {
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-4 lg:py-10 mx-auto">
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {project.map((data, index) => {
+          {product.map((data, index) => {
 
             return <a key={index} className="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-neutral-700 dark:hover:border-transparent dark:hover:shadow-black/40" href={data.redirect_url}>
               <div className="aspect-w-16 aspect-h-11">
@@ -28,7 +28,7 @@ const Product = () => {
                   {data.name}
                 </h3>
                 <span className="text-2xl text-white">
-                  <span>$15.00</span>
+                  <span>{data.price}</span>
                 </span>
                 <p className="mt-5 text-gray-600 dark:text-neutral-400">
                   {data.description}
