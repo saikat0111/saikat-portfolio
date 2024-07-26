@@ -1,45 +1,38 @@
 const project=[
     {
-        "name": "Freelance Website- PestStop Solution",
-        "description": "Pest Control Company Website",
-        "redirect_url": "https://peststopsolution.com/",
+        "name": "Kabhi Na Kabhi To Milogi",
+        "description": "- by Saikat Ray",
+        "redirect_url": "https://cosmofeed.com/vp/6625545346b51f0013941cdb",
         "link": "Live Link",
-        "image_url": "project/peststop.png"
+        "image_url": "product/product1.png"
     },
     {
-        "name": "Freelance Website - Cosmic Pest Solutions",
-        "description": "Pest Control Company Website",
-        "redirect_url": "https://cosmicpestsolutions.com",
+        "name": "Akhiyaan Gulaab ",
+        "description": "MITRAZ FL Studio Project - by Saikat Ray",
+        "redirect_url": "https://cosmofeed.com/vp/65e434556313850013b16836",
         "link": "Live Link",
-        "image_url": "project/cosmic.png"
+        "image_url": "product/product2.png"
     },
     {
-        "name": "Blog Website",
-        "description": "Micro Blogging web-application built with React, Storage/Authentication with Firebase.",
-        "redirect_url": "https://dibakar-writenode-three.vercel.app",
+        "name": "Pahale Bhi Main",
+        "description": " FL Studio Project - by Saikat Ray",
+        "redirect_url": "https://cosmofeed.com/vp/65e434556313850013b16836",
         "link": "Live Link",
-        "image_url": "project/project-writenode.png"
+        "image_url": "product/product3.png"
     },
     {
-        "name": "Movix",
-        "description": "About Movie information web-application built with React, SCSS, TMDB API and deployed on Vercel",
-        "redirect_url": "https://dibakar-movie-tmdb.vercel.app",
+        "name": "Zara Zara",
+        "description": " RHTDM Remake - FL Studio Project",
+        "redirect_url": "https://cosmofeed.com/vp/65951fcb454231001d7334cc",
         "link": "Live Link",
-        "image_url": "project/project-movie.png"
+        "image_url": "product/product4.png"
     },
     {
-        "name": "Music Website UI",
-        "description": "A basic introduction to nextjs with awesome UI from Aceternity UI",
-        "redirect_url": "https://music-website-ui.pages.dev",
+        "name": "O Mahi - Dunki ",
+        "description": "FL Studio Project - by Saikat Ray",
+        "redirect_url": "https://cosmofeed.com/vp/665c77866344720013c23ab3",
         "link": "Live Link",
-        "image_url": "project/music_webiste_ui.png"
-    },
-    {
-        "name": "Taskbox",
-        "description": "To do List Website where you can add, delete and edit the task using local storage and also change the theme.",
-        "redirect_url": "https://dibakar-taskbox-flax.vercel.app",
-        "link": "Live Link",
-        "image_url": "project/project-taskbox.png"
+        "image_url": "product/product5.png"
     }
 ]
 export default project;
