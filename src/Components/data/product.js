@@ -1,7 +1,7 @@
 const project=[
     {
         "name": "Kabhi Na Kabhi To Milogi",
-        "description": "- by Saikat Ray",
+        "description": "by Saikat Ray",
         "redirect_url": "https://cosmofeed.com/vp/6625545346b51f0013941cdb",
         "link": "Live Link",
         "price":"₹59",
