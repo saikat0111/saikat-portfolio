@@ -36,7 +36,7 @@ const project=[
         "description": "FL Studio Project - by Saikat Ray",
         "redirect_url": "https://cosmofeed.com/vp/665c77866344720013c23ab3",
         "link": "Live Link",
-        "price":"₹59",
+        "price":"₹79",
         "image_url": "product/product5.png"
     }
 ]
