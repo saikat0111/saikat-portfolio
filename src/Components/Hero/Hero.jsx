@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-
+import banner_pic from "../../assets/banner2.webp"
 
 
 
@@ -8,7 +8,7 @@ const Hero = () => {
 
   return (
     <div id='home' className='hero'>
-     <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden">
         <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <div className="max-w-2xl text-center mx-auto">
             <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl dark:text-white">Saikat Ray <span className="text-blue-600">Music</span></h1>
@@ -16,7 +16,12 @@ const Hero = () => {
           </div>
 
           <div className="mt-10 relative max-w-5xl mx-auto">
-            <div className="w-full object-cover h-96 sm:h-[480px] bg-[url('https://lh3.googleusercontent.com/PDGDbjPwEOEJqCAmkLuss-cKghxoLB2bHCc1E6mea1A11xcaeEkmFjp1BGrwD4HJ01lJRTcaoHimCwdQCQoUpoA=w16383')] bg-no-repeat bg-center bg-cover rounded-xl"></div>
+            {/* <div className="w-full object-cover h-96 sm:h-[480px] bg-[url('https://lh3.googleusercontent.com/PDGDbjPwEOEJqCAmkLuss-cKghxoLB2bHCc1E6mea1A11xcaeEkmFjp1BGrwD4HJ01lJRTcaoHimCwdQCQoUpoA=w16383')] bg-no-repeat bg-center bg-cover rounded-xl"></div> */}
+
+            <div
+              className="w-full object-cover h-96 sm:h-[480px] bg-no-repeat bg-center bg-cover rounded-xl"
+              style={{ backgroundImage: `url(${banner_pic})` }}
+            ></div>
 
             <div className="absolute inset-0 size-full">
               <div className="flex flex-col justify-center items-center size-full">
