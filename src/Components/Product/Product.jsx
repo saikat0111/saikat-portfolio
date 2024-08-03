@@ -29,13 +29,13 @@ const Product = () => {
                   <img className="w-full object-cover rounded-xl" src={data.image_url} alt="Image Description" />
                 </div>
                 <div className="my-6">
-                  <h3 className="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:group-hover:text-white">
+                  <h3 className="text-xl font-semibold text-white-800 dark:text-neutral-300 dark:group-hover:text-white">
                     {data.name}
                   </h3>
                   <span className="text-2xl text-white">
                     <span>{data.price}</span>
                   </span>
-                  <p className="mt-5 text-gray-600 dark:text-neutral-400">
+                  <p className="mt-5 text-gray-200 dark:text-neutral-200">
                     {data.description}
                   </p>
                 </div>

@@ -98,7 +98,7 @@ const About = () => {
         <div className="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20 lg:pb-20 mx-auto">
           <div className="max-w-3xl mb-10 lg:mb-14">
             <h2 className="text-white font-semibold text-2xl md:text-4xl md:leading-tight">About Us</h2>
-            <p className="mt-1 text-neutral-400">Welcome to our online e-commerce store! We are thrilled to have you here and offer you a wide range of high-quality products at competitive prices. Our goal is to provide you with an easy and enjoyable shopping experience from the comfort of your own home.</p>
+            <p className="mt-1 text-white">Welcome to our online e-commerce store! We are thrilled to have you here and offer you a wide range of high-quality products at competitive prices. Our goal is to provide you with an easy and enjoyable shopping experience from the comfort of your own home.</p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
             <div className="aspect-w-16 aspect-h-9 lg:aspect-none">
@@ -120,8 +120,8 @@ const About = () => {
                   </div>
                 </div>
                 <div className="grow pt-0.5 pb-8 sm:pb-12">
-                  <p className="text-sm lg:text-base text-neutral-400">
-                    <span className="text-white">Instant Inspiration: </span>
+                  <p className="text-sm lg:text-base text-neutral-200">
+                    <span className="text-red-700 dark:text-[#ff0]">Instant Inspiration: </span>
                     Download project files instantly and jumpstart your music production with fresh ideas.
                   </p>
                 </div>
@@ -136,8 +136,8 @@ const About = () => {
                   </div>
                 </div>
                 <div className="grow pt-0.5 pb-8 sm:pb-12">
-                  <p className="text-sm lg:text-base text-neutral-400">
-                    <span className="text-white">Secure Checkout: </span>
+                  <p className="text-sm lg:text-base text-neutral-200">
+                    <span className="text-red-700 dark:text-[#ff0]">Secure Checkout: </span>
                     Shop with confidence through our encrypted payment gateway.
                   </p>
                 </div>
@@ -151,8 +151,8 @@ const About = () => {
                   </div>
                 </div>
                 <div className="grow pt-0.5 pb-8 sm:pb-12">
-                  <p className="text-sm md:text-base text-neutral-400">
-                    <span className="text-white">Global Access: </span>
+                  <p className="text-sm md:text-base text-neutral-200">
+                    <span className="text-red-700 dark:text-[#ff0]">Global Access: </span>
                     If you&apos;re not happy with your purchase, we&apos;ll make it right.
 
                   </p>
@@ -168,8 +168,8 @@ const About = () => {
                   </div>
                 </div>
                 <div className="grow pt-0.5 pb-8 sm:pb-12">
-                  <p className="text-sm md:text-base text-neutral-400">
-                    <span className="text-white">Satisfaction Guarantee: </span>
+                  <p className="text-sm md:text-base text-neutral-200">
+                    <span className="text-red-700 dark:text-[#ff0]">Satisfaction Guarantee: </span>
                     Wherever you are, our digital store is just a click away.
                   </p>
                 </div>

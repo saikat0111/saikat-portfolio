@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer-top">
         <div className="footer-top-left">
             <h1>Saikat Ray</h1>
-            <p>I am a singer and youtuber from, India with 5+ years of Music Industry experience.</p>
+            <p>I am music producer from, India with 5+ years of Music Industry experience.</p>
         </div>
         <div className="footer-top-right">
             <div className="footer-email-input">
