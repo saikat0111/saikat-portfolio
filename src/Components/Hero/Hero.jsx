@@ -40,8 +40,87 @@ const Hero = () => {
               <div className="bg-white size-48 rounded-full dark:bg-neutral-900"></div>
             </div>
           </div>
+
+        </div>
+
+
+      </div>
+
+{/* youtube video gallery */}
+      <div className='p-6'>
+      <div className=" p-3 max-w-2xl text-center mx-auto">
+            <h1 className="block text-3xl font-bold text-white-800 sm:text-4xl md:text-5xl dark:text-white">Explore The <span className="text-blue-600">Gallery</span></h1>
+            
+          </div>
+        
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
+          <div className="group block relative overflow-hidden rounded-lg">
+            <iframe className="w-full size-60 bg-gray-100 rounded-lg dark:bg-neutral-800" src="https://www.youtube.com/embed/s1FurN-5CQM?si=1R4vFHAwghzGrJDH"  allowfullscreen></iframe>
+            <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+              <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></svg>
+                <a href='https://www.youtube.com/watch?v=s1FurN-5CQM' className="text-xs">View</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="group block relative overflow-hidden rounded-lg">
+            <iframe className="w-full size-60 bg-gray-100 rounded-lg dark:bg-neutral-800"src="https://www.youtube.com/embed/m3lf-l1IMzc?si=9NNJFFxIQli0UfLd"  allowfullscreen></iframe>
+            <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+              <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></svg>
+                <a href='https://www.youtube.com/watch?v=m3lf-l1IMzc' className="text-xs">View</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="group block relative overflow-hidden rounded-lg">
+            <iframe className="w-full size-60 bg-gray-100 rounded-lg dark:bg-neutral-800" src="https://www.youtube.com/embed/SccBcSazqgM?si=I-Xa-vRRf08EtSP7" allowfullscreen></iframe>
+            <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+              <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></svg>
+                <a href='https://www.youtube.com/watch?v=SccBcSazqgM' className="text-xs">View</a>
+              </div>
+            </div>
+          </div>
+
+         
+
+          <div className="group block relative overflow-hidden rounded-lg">
+            <iframe className="w-full size-60 bg-gray-100 rounded-lg dark:bg-neutral-800" src="https://www.youtube.com/embed/Y-JVZgAo32w?si=vIFbEwVUi-6qX1bY" allowfullscreen></iframe>
+            <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+              <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></svg>
+                <a href='https://www.youtube.com/watch?v=Y-JVZgAo32w' className="text-xs">View</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="group block relative overflow-hidden rounded-lg">
+            <iframe className="w-full size-60 bg-gray-100 rounded-lg dark:bg-neutral-800" src="https://www.youtube.com/embed/mSUj6LiK2B0?si=gRFcMW3VVmfjmpLE"  allowfullscreen></iframe>
+            <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+              <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></svg>
+                <a href='https://www.youtube.com/watch?v=mSUj6LiK2B0' className="text-xs">View</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="group block relative overflow-hidden rounded-lg">
+            <iframe className="w-full size-60 bg-gray-100 rounded-lg dark:bg-neutral-800" src="https://www.youtube.com/embed/Hujfo1tJyGw?si=3hpR4fbJ7dBoapBe"  allowfullscreen></iframe>
+            <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+              <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></svg>
+                <a href='https://www.youtube.com/watch?v=Hujfo1tJyGw' className="text-xs">View</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
+
+
+
     </div>
   )
 }
