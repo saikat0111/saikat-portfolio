@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import banner_pic from "../../assets/banner2.webp"
- import Contact from '../Contact/Contact'
+import Contact from '../Contact/Contact'
 
 
 const Hero = () => {
@@ -121,7 +121,8 @@ const Hero = () => {
 
 
 
-      <Contact/>
+      {/* contact component from the contact page */}
+      <Contact />
 
     </div>
   )
