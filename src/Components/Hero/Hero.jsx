@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import banner_pic from "../../assets/banner2.webp"
-
+ import Contact from '../Contact/Contact'
 
 
 const Hero = () => {
@@ -46,16 +46,16 @@ const Hero = () => {
 
       </div>
 
-{/* youtube video gallery */}
+      {/* youtube video gallery */}
       <div className='p-6'>
-      <div className=" p-3 max-w-2xl text-center mx-auto">
-            <h1 className="block text-3xl font-bold text-white-800 sm:text-4xl md:text-5xl dark:text-white">Explore The <span className="text-blue-600">Gallery</span></h1>
-            
-          </div>
-        
+        <div className=" p-3 max-w-2xl text-center mx-auto">
+          <h1 className="block text-3xl font-bold text-white-800 sm:text-4xl md:text-5xl dark:text-white">Explore The <span className="text-blue-600">Gallery</span></h1>
+
+        </div>
+
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
           <div className="group block relative overflow-hidden rounded-lg">
-            <iframe className="w-full size-60 bg-gray-100 rounded-lg dark:bg-neutral-800" src="https://www.youtube.com/embed/s1FurN-5CQM?si=1R4vFHAwghzGrJDH"  allowfullscreen></iframe>
+            <iframe className="w-full size-60 bg-gray-100 rounded-lg dark:bg-neutral-800" src="https://www.youtube.com/embed/s1FurN-5CQM?si=1R4vFHAwghzGrJDH" allowfullscreen></iframe>
             <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
               <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
                 <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></svg>
@@ -65,7 +65,7 @@ const Hero = () => {
           </div>
 
           <div className="group block relative overflow-hidden rounded-lg">
-            <iframe className="w-full size-60 bg-gray-100 rounded-lg dark:bg-neutral-800"src="https://www.youtube.com/embed/m3lf-l1IMzc?si=9NNJFFxIQli0UfLd"  allowfullscreen></iframe>
+            <iframe className="w-full size-60 bg-gray-100 rounded-lg dark:bg-neutral-800" src="https://www.youtube.com/embed/m3lf-l1IMzc?si=9NNJFFxIQli0UfLd" allowfullscreen></iframe>
             <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
               <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
                 <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></svg>
@@ -84,7 +84,7 @@ const Hero = () => {
             </div>
           </div>
 
-         
+
 
           <div className="group block relative overflow-hidden rounded-lg">
             <iframe className="w-full size-60 bg-gray-100 rounded-lg dark:bg-neutral-800" src="https://www.youtube.com/embed/Y-JVZgAo32w?si=vIFbEwVUi-6qX1bY" allowfullscreen></iframe>
@@ -97,7 +97,7 @@ const Hero = () => {
           </div>
 
           <div className="group block relative overflow-hidden rounded-lg">
-            <iframe className="w-full size-60 bg-gray-100 rounded-lg dark:bg-neutral-800" src="https://www.youtube.com/embed/mSUj6LiK2B0?si=gRFcMW3VVmfjmpLE"  allowfullscreen></iframe>
+            <iframe className="w-full size-60 bg-gray-100 rounded-lg dark:bg-neutral-800" src="https://www.youtube.com/embed/mSUj6LiK2B0?si=gRFcMW3VVmfjmpLE" allowfullscreen></iframe>
             <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
               <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
                 <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></svg>
@@ -107,7 +107,7 @@ const Hero = () => {
           </div>
 
           <div className="group block relative overflow-hidden rounded-lg">
-            <iframe className="w-full size-60 bg-gray-100 rounded-lg dark:bg-neutral-800" src="https://www.youtube.com/embed/Hujfo1tJyGw?si=3hpR4fbJ7dBoapBe"  allowfullscreen></iframe>
+            <iframe className="w-full size-60 bg-gray-100 rounded-lg dark:bg-neutral-800" src="https://www.youtube.com/embed/Hujfo1tJyGw?si=3hpR4fbJ7dBoapBe" allowfullscreen></iframe>
             <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
               <div className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
                 <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></svg>
@@ -120,6 +120,8 @@ const Hero = () => {
 
 
 
+
+      <Contact/>
 
     </div>
   )
