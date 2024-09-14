@@ -36,8 +36,16 @@ const project=[
         "description": "FL Studio Project - by Saikat Ray",
         "redirect_url": "https://cosmofeed.com/vp/665c77866344720013c23ab3",
         "link": "Live Link",
-        "price":"₹79",
+        "price":"₹59",
         "image_url": "product/product5.png"
+    },
+    {
+        "name": "Naadaniyan",
+        "description": "FL Studio Project - Deconstructed by Saikat Ray",
+        "redirect_url": "https://superprofile.bio/vp/66d2e50e6308df00136ad8ed",
+        "link": "Live Link",
+        "price":"₹69",
+        "image_url": "product/product6.png"
     }
 ]
 export default project;
