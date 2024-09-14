@@ -1,5 +1,13 @@
 const project=[
     {
+        "name": "Naadaniyan",
+        "description": "FL Studio Project - Deconstructed by Saikat Ray",
+        "redirect_url": "https://superprofile.bio/vp/66d2e50e6308df00136ad8ed",
+        "link": "Live Link",
+        "price":"₹69",
+        "image_url": "product/product6.png"
+    },
+    {
         "name": "Kabhi Na Kabhi To Milogi",
         "description": "by Saikat Ray",
         "redirect_url": "https://cosmofeed.com/vp/6625545346b51f0013941cdb",
@@ -38,14 +46,6 @@ const project=[
         "link": "Live Link",
         "price":"₹59",
         "image_url": "product/product5.png"
-    },
-    {
-        "name": "Naadaniyan",
-        "description": "FL Studio Project - Deconstructed by Saikat Ray",
-        "redirect_url": "https://superprofile.bio/vp/66d2e50e6308df00136ad8ed",
-        "link": "Live Link",
-        "price":"₹69",
-        "image_url": "product/product6.png"
     }
 ]
 export default project;
